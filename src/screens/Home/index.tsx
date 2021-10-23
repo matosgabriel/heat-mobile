@@ -21,7 +21,7 @@ let messagesQueue: IMessage[] = [];
 
 socket.on('new_message', (newMessage) => {
   messagesQueue.push(newMessage);
-})
+});
 
 function Home() {
   const [messages, setMessages] = useState<IMessage[]>([]);
