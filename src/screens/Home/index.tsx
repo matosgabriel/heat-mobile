@@ -9,7 +9,7 @@ import { Header } from '../../components/Header';
 import { IMessage, Message } from '../../components/Message';
 import { COLORS } from '../../theme';
 
-import { api } from '../../util/api';
+import { api } from '../../services/api';
 
 import { styles } from './styles';
 

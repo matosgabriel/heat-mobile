@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import * as AuthSession from 'expo-auth-session';
-import { api } from '../util/api';
+import { api } from '../services/api';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 interface IUser {
